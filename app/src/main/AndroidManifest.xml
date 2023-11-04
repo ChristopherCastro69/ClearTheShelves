@@ -12,6 +12,24 @@
         android:theme="@style/Theme.ClearTheShelves"
         tools:targetApi="31">
         <activity
+            android:name=".Admin_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Register"
+            android:exported="false" />
+        <activity
+            android:name=".Seller_Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Seller"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Customer"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Customer"
+            android:exported="false" />
+        <activity
             android:name=".OptionsActivity"
             android:exported="false" />
         <activity

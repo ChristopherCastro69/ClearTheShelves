@@ -16,15 +16,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView textView3 = findViewById(R.id.textView3);
-
-        textView3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Start the OptionsActivity to display the list of options
-                Intent intent = new Intent(MainActivity.this, OptionsActivity.class);
-                startActivity(intent);
-            }
-        });
+//        TextView textView3 = findViewById(R.id.textView3);
+//        textView3.setVisibility(View.VISIBLE);
+//        textView3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // Start the OptionsActivity to display the list of options
+//                Intent intent = new Intent(MainActivity.this, OptionsActivity.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }
